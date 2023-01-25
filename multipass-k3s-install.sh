@@ -1,6 +1,6 @@
 # This script sets up VMs running Ubuntu by using multipass (from https://multipass.run) and installs 
 # k3s on them. Please note that it has only been tested on macOS (Ventura) and with 3 VMs
-# It created an environment as described in the first part of the c't course for kubernetes:
+# It creates an environment as described in the first part of the c't course for kubernetes:
 # https://www.heise.de/select/ct/2022/22/2220016192019307305
 export MP="/usr/local/bin/multipass"
 export NAMES="kube1 kube2 kube3"
